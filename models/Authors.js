@@ -28,9 +28,13 @@ const authorsSchema = new Schema({
         required: true,
     },
     github_link: {
-        type: URL,
+        type: String,
         required: false,
     },
+    articles: [{
+        type: Schema.Types.ObjectId,
+        ref: "Articles"
+    }],
     is_active: {
       type: Boolean,
       default: true,
