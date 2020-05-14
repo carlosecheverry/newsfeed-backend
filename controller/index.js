@@ -1,9 +1,9 @@
 const UsersController = require('./UsersController');
 const RolesController = require('./RolesController');
-const TweetsController = require('./TweetsController');
+const ArticlesController = require('./ArticlesController');
 
 module.exports = {
   UsersController,
   RolesController,
-  TweetsController,
+  ArticlesController,
 }

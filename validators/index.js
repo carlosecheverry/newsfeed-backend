@@ -1,9 +1,9 @@
 const UsersValidator = require('./UsersValidator');
 const RolesValidator = require('./RolesValidator');
-const TweetsValidator = require('./TweetsValidator');
+const ArticlesValidator = require('./ArticlesValidator');
 
 module.exports = {
   UsersValidator,
   RolesValidator,
-  TweetsValidator,
+  ArticlesValidator,
 }

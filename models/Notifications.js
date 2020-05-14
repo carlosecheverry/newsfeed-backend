@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-const tweetsSchema = new Schema({
+const notificationsSchema = new Schema({
     author: {
       type: String,
       required: true,
@@ -16,6 +16,6 @@ const tweetsSchema = new Schema({
     },
 });
 
-const Tweets = mongoose.model('Tweets', tweetsSchema);
+const Notifications = mongoose.model('Notifications', notificationsSchema);
 
-module.exports = { Tweets, tweetsSchema };
+module.exports = { Notifications, notificationsSchema };

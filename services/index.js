@@ -1,9 +1,9 @@
 const UsersService = require('./UsersService');
 const RolesService = require('./RolesService');
-const TweetsService = require('./TweetsService');
+const ArticlesService = require('./ArticlesService');
 
 module.exports = {
   UsersService,
   RolesService,
-  TweetsService,
+  ArticlesService,
 } 
