@@ -9,6 +9,7 @@ module.exports = {
         last_name: Joi.string().required().trim(),
         biography: Joi.string().required().trim(),
         location: Joi.string().required().trim(),
+        github_link: Joi.string().required().trim(),
         }),
     }),
 };
